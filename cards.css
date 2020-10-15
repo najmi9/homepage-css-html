@@ -1,0 +1,75 @@
+
+div.card1{
+	width: 100%;
+	font-size: 2.5rem;
+	color: white;
+}
+
+div.card2{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	color: #00FFFF;
+	justify-content: center;
+	align-items: center;
+}
+
+div.my-description{
+	margin: 20px;
+	color: #00FFFF;
+	font-size: 2.5rem;
+}
+
+img.my-image{
+	height : 400px;
+	text-align: center;
+}
+
+div.div-image{
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.post{
+	margin-left: 5px;
+	margin-bottom: 20px;
+	padding: 7px;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 orange, 0 6px 10px 0 orange;
+/*	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    text-align: center;
+}
+div.post:hover{
+	cursor: pointer;
+	background-color: #cd4606;
+	transform: scale(1.01);
+}
+div.post a{
+	padding: auto;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	padding: 0.3rem;
+}
+
+h3.articles{
+	font-size: 2.5rem;
+	color: #0000fd;
+}
+button.btn{
+	padding: 5px 1px 5px 1px;
+	background-color:#cd4606;
+	color: white;
+	margin:5px; 
+	outline: none;
+	border-radius: 30px;
+	position: absolute;
+	right: 0;
+	font-size: 2rem;
+	font-weight: bold;
+}
+button.btn:hover{
+	cursor: pointer;
+	transform: scale(1.01);
+	background-color: transparent;
+}
